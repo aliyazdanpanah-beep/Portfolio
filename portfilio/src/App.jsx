@@ -1,9 +1,12 @@
 import "./App.css";
+import Home from "./page/home/home";
 
 const App = () => {
   return (
     <>
-      <section className="header">App page</section>
+      <div className="container">
+        <Home />
+      </div>
     </>
   );
 };
