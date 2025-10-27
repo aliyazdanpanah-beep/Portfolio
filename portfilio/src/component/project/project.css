@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ProgWraper {
+  width: 100%;
+  padding: 20px 0;
+  background-image: linear-gradient(to right, #000, #131313);
+}
+
+.Progs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ProgName {
+  width: 25%;
+  height: 250px;
+  box-shadow: 
+    3px 3px 12px rgba(0, 0, 0, 0.3),
+    1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: #131313;
+  border-radius: 10px;
+}
