@@ -1,4 +1,4 @@
-import Prog from "../../component/project/prohect";
+import Prog from "../../component/project/project";
 import "./home.css";
 
 const Home = () => {
