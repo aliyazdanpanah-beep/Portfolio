@@ -112,6 +112,15 @@
   width: 85%;
 }
 
+a {
+  text-decoration: none;
+  color: #0866FF;
+}
+
+.GitLink:hover a {
+  color: #fff;
+}
+
 .GitLink::before {
   content: '';
   position: absolute;
