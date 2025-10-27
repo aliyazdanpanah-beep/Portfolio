@@ -1,7 +1,9 @@
 import Prog from "../../component/project/project";
+import { useState, useEffect } from "react";
 import "./home.css";
 
 const Home = () => {
+  const [prog, setProg] = useState([])
   return (
     <section className="container">
       <div className="hero">
