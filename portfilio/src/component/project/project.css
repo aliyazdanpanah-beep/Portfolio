@@ -42,7 +42,6 @@
     1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* استایل برای موبایل */
 @media (max-width: 768px) {
   .Progs {
     display: grid;
@@ -57,9 +56,8 @@
     height: 200px;
   }
   
-  /* سومی بره خط دوم و وسط */
   .ProgName:nth-child(3) {
     grid-column: 1 / span 2;
-    width: 50%;
+    width: 70%;
   }
 }
