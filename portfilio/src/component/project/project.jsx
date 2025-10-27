@@ -55,7 +55,7 @@ const Prog = (props) => {
 
             <p> {props.Progs.listText} </p>
             <div className="GitLink">
-              <Link className="" to={"https://github.com/aliyazdanpanah-beep/Shoping-Cart"}>
+              <Link className="" to={"https://github.com/aliyazdanpanah-beep/simpel_ToDoList"}>
                 {props.Progs.gitText}
               </Link>
               <svg
@@ -87,7 +87,7 @@ const Prog = (props) => {
 
             <p> {props.Progs.restText} </p>
             <div className="GitLink">
-              <Link className="" to={"https://github.com/aliyazdanpanah-beep/Shoping-Cart"}>
+              <Link className="" to={"https://github.com/aliyazdanpanah-beep/Restorant"}>
                 {props.Progs.gitText}
               </Link>
               <svg
