@@ -19,6 +19,8 @@
 .ProgName {
   width: 25%;
   height: 250px;
+  text-align: center;
+  padding: 10px;
   box-shadow: 
     3px 3px 12px rgba(0, 0, 0, 0.3),
     1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -27,5 +29,16 @@
 }
 
 .icons {
+  color: #fafafa;
+  width: 70%;
+  height: 50%;
+}
+
+.ProgName p {
   color: #fff;
+  padding: 10px 0;
+  text-shadow: 
+    3px 3px 12px rgba(255, 255, 255, 0.3),
+    1px 1px 5px rgba(0, 0, 0, 0.2);
+
 }
