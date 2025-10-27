@@ -7,6 +7,7 @@
 .ProgWraper {
   width: 100%;
   padding: 20px 0;
+  padding: 20px;
   background-image: linear-gradient(to right, #000, #131313);
 }
 
@@ -40,6 +41,19 @@
   text-shadow: 
     3px 3px 12px rgba(255, 255, 255, 0.3),
     1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.GitLink {
+  padding: 8px 0;
+  color: #0866FF;
+  text-align: center;
+  align-items: center;
+}
+
+.GitIcon {
+  width: 12px;
+  height: 12px;
+  margin: 0 2px;
 }
 
 @media (max-width: 768px) {
