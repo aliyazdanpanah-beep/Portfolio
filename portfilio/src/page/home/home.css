@@ -20,10 +20,11 @@
 }
 
 .hero > h2 {
+  font-family: "Montserrat", sans-serif;
   height: 100%;
   width: 100%;
   color: #fff;
-  font-size: 3em;
+  font-size: 2.90em;
   transform: scaleX(-1);
   right: 0;
   top: 0;
