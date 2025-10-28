@@ -9,40 +9,41 @@ import './skill.css'
 
 const Skills = () => {
   return (
-    <div className="SkillWrapper">
-      <div className="Skills">
+    <>
+      <div className="SkillWrapper">
+        <div className="Skills">
+          <div className="SkillItem">
+            <FaHtml5 className="Icons" />
+            <h3 className="IconTittle">Html</h3>
+          </div>
 
-        <div className="SkillItem"> 
-          <FaHtml5 className='Icons'/> 
-          <h3 className='IconTittle'>Html</h3>
-        </div>
+          <div className="SkillItem">
+            <FaCss3Alt className="Icons" />
+            <h3 className="IconTittle">CSS</h3>
+          </div>
 
-        <div className="SkillItem">
-          <FaCss3Alt className='Icons' />
-          <h3 className='IconTittle'>CSS</h3>
-        </div>
+          <div className="SkillItem">
+            <FaJsSquare className="Icons" />
+            <h3 className="IconTittle">JavaScript</h3>
+          </div>
 
-        <div className="SkillItem">
-          <FaJsSquare className='Icons' />
-          <h3 className='IconTittle'>JavaScript</h3>
-        </div>
+          <div className="SkillItem">
+            <FaReact className="Icons" />
+            <h3 className="IconTittle">React js</h3>
+          </div>
 
-        <div className="SkillItem">
-          <FaReact className='Icons' />
-          <h3 className='IconTittle'>React js</h3>
-        </div>
+          <div className="SkillItem">
+            <RiBootstrapLine className="Icons" />
+            <h3 className="IconTittle">Bootstrap</h3>
+          </div>
 
-        <div className="SkillItem">
-          <RiBootstrapLine className='Icons' />
-          <h3 className='IconTittle'>Bootstrap</h3>
-        </div>
-
-        <div className="SkillItem">
-          <RiTailwindCssFill className='Icons' />
-          <h3 className='IconTittle'>Tailwind</h3>
+          <div className="SkillItem">
+            <RiTailwindCssFill className="Icons" />
+            <h3 className="IconTittle">Tailwind</h3>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
