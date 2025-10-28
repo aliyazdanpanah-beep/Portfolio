@@ -17,6 +17,7 @@
   text-align: center;
   font-size: 40px;
   letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .SkillWrapper {
@@ -83,6 +84,7 @@
   margin-top: -20px;
   color: #fff;
   transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
 }
 
 .SkillItem:hover .IconTittle {
