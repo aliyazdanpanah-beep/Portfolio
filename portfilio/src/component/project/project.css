@@ -6,8 +6,7 @@
 
 .ProgWraper {
   width: 100%;
-  padding: 20px 0;
-  padding: 20px;
+  padding: 40px 20px;
   background-image: linear-gradient(to right, #000, #131313);
 }
 
