@@ -40,6 +40,11 @@
   background-color: #131313;
 }
 
+.SkillTittle {
+  display: block;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .SkillItem {
     height: 140px;
