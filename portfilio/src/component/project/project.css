@@ -67,17 +67,17 @@
   width: 80px;
   height: 80px;
   margin-bottom: 15px;
-  filter: drop-shadow(0 4px 12px rgba(0, 212, 255, 0.4));
+  filter: drop-shadow(0 4px 12px rgba(0, 212, 255, 0.2));
   transition: all 0.3s ease;
 }
 
 .ProgName:hover .icons {
   transform: scale(1.1);
-  filter: drop-shadow(0 6px 20px rgba(0, 212, 255, 0.6));
+  filter: drop-shadow(0 6px 20px rgba(0, 212, 255, 0.4));
 }
 
 .ProgName p {
-  color: #f0f0f0;
+  color: #a8a8a8;
   padding: 10px 0;
   margin: 10px 0;
   font-size: 15px;
@@ -113,7 +113,7 @@
 
 a {
   text-decoration: none;
-  color: #0866FF;
+  color: #808080;
 }
 
 .GitLink:hover a {
