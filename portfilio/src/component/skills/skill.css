@@ -12,7 +12,7 @@
     to right,
     #000,
     #131313
-  ) ;
+  );
   margin: 30px 0;
   text-align: center;
   font-size: 40px;
@@ -46,26 +46,49 @@
   height: 200px;
   text-align: center;
   border-radius: 10px;
+  background: #131313;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.SkillTittle {
-  display: block;
-  color: #fff;
+.SkillItem:hover {
+  border-color: #0866FF;
+  transform: translateY(-5px);
 }
 
 .Icons {
   width: 70%;
   height: 60%;
   margin: 20px 0;
+  transition: transform 0.3s ease;
 }
+
+.SkillItem:hover .Icons {
+  transform: scale(1.1);
+}
+
+/* رنگ‌های آیکون‌ها */
+.SkillItem:nth-child(1) .Icons { color: #E34F26; } /* HTML */
+.SkillItem:nth-child(2) .Icons { color: #1572B6; } /* CSS */
+.SkillItem:nth-child(3) .Icons { color: #F7DF1E; } /* JavaScript */
+.SkillItem:nth-child(4) .Icons { color: #61DAFB; } /* React */
+.SkillItem:nth-child(5) .Icons { color: #7952B3; } /* Bootstrap */
+.SkillItem:nth-child(6) .Icons { color: #38B2AC; } /* Tailwind */
 
 .IconTittle {
   margin-top: -20px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.SkillItem:hover .IconTittle {
+  color: #0866FF;
 }
 
 @media (max-width: 768px) {
   .SkillItem {
     height: 140px;
-    /* width: 45%; */
+    width: 45%;
   }
 }
