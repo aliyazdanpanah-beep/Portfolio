@@ -33,16 +33,26 @@
   height: 200px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 
+  /* box-shadow: 
     0 8px 32px rgba(0, 0, 0, 0.4),
     0 4px 16px rgba(0, 0, 0, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  background-color: #131313;
+  background-color: #131313; */
 }
 
 .SkillTittle {
   display: block;
   color: #fff;
+}
+
+.Icons {
+  width: 70%;
+  height: 60%;
+  margin: 20px 0;
+}
+
+.IconTittle {
+  margin-top: -20px;
 }
 
 @media (max-width: 768px) {
