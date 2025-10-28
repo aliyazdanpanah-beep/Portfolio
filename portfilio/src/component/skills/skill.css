@@ -46,15 +46,17 @@
   height: 200px;
   text-align: center;
   border-radius: 10px;
-  background: #131313;
+  background: #1a1a1a;
   border: 1px solid #333;
   transition: all 0.3s ease;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .SkillItem:hover {
   border-color: #0866FF;
   transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(8, 102, 255, 0.4);
 }
 
 .Icons {
