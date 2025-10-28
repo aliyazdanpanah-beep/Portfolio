@@ -14,16 +14,17 @@
 }
 
 .Skills {
+  gap: 10px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  text-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
 
 .SkillItem {
   width: 30%;
-  height: 250px;
+  height: 200px;
   border-radius: 10px;
   background-color: blueviolet;
 }

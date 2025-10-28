@@ -2,6 +2,7 @@ import Prog from "../../component/project/project";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./home.css";
+import Skills from "../../component/skills/skill";
 
 const Home = () => {
   const [prog, setProg] = useState([])
@@ -22,6 +23,9 @@ const Home = () => {
         {prog.map((Progs) => (
           <Prog key={Progs.id} Progs={Progs} />
         ))}
+      </div>
+      <div className="skillPage">
+        <Skills />
       </div>
     </section>
   );
