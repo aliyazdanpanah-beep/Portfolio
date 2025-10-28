@@ -20,7 +20,7 @@
 
 .SkillWrapper {
   width: 100%;
-  padding: 80px 25px;
+  padding: 60px 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,5 +66,6 @@
 @media (max-width: 768px) {
   .SkillItem {
     height: 140px;
+    /* width: 45%; */
   }
 }
