@@ -13,9 +13,9 @@
     #000,
     #131313
   ) ;
-  margin: 50px 0;
+  margin: 30px 0;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .SkillWrapper {
@@ -46,11 +46,6 @@
   height: 200px;
   text-align: center;
   border-radius: 10px;
-  /* box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.4),
-    0 4px 16px rgba(0, 0, 0, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  background-color: #131313; */
 }
 
 .SkillTittle {
