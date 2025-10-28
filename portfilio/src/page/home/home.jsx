@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <section className="container">
       <div className="hero">
-        <h2>wellcom to Portfilio</h2>
+        <h2>wellcom to Portfolio</h2>
       </div>
       <div className="prog">
         {prog.map((Progs) => (
