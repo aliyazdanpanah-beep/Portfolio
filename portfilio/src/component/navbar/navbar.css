@@ -4,14 +4,22 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
+
 .NavWrapper {
-  position: absolute;
-  top: 20;
-  left: 20;
+  width: 100%;
+  height: 80px;
+  position: fixed;
   background-color: #131313;
   z-index: 1;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  backdrop-filter: blur(10px);
 }
 
 .NavPart {
+  font-size: 14px;
+  margin: 20px 0;
   color: #fff;
 }

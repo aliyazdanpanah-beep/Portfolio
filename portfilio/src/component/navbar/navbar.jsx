@@ -3,14 +3,14 @@ import './navbar.css'
 const Nav = () => {
   return (
     <>
-      <div className='NavWrapper'>
-        <div className='NavPart'>Home</div>
-        <div className='NavPart'>Project</div>
-        <div className='NavPart'>Skills</div>
-        <div className='NavPart'>About</div>
+      <div className="NavWrapper">
+        <span className="NavPart">Home</span>
+        <span className="NavPart">Project</span>
+        <span className="NavPart">Skills</span>
+        <span className="NavPart">About</span>
       </div>
     </>
-  )
+  );
 }
 
 export default Nav

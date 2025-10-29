@@ -7,8 +7,8 @@
 .MenuIcon {
   position: fixed;
   display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -16,8 +16,10 @@
 }
 
 .MenuLine {
+  position: relative;
   height: 3px;
-  margin: 10px 10px;
+  width: 120%;
+  margin: 10px;
   background-color: #fff;
   backdrop-filter: blur(10px);
 }
