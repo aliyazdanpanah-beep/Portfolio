@@ -2,31 +2,163 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 .AboutPage {
   width: 100%;
-  height: 80px;
+  min-height: 120px;
   display: flex;
-  padding: 20px;
   align-items: center;
-  background-color: #0c0c0c;
-  justify-content: space-between;
+  background: linear-gradient(135deg, #2A2A2A 0%, #1A1A1A 100%);
+  padding: 20px;
+  border-top: 1px solid #333;
 }
 
-.AboutWrapper {
-  color: #808080;
-  font-size: 14px;
-}
-
-.Conect {
+.AboutContainer {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.Conect a {
-  margin: 0 10px;
-  width: 25px;
-  height: 25px;
-  color: #ffff;
+.AboutSection {
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.AboutEmail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.AboutRole {
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+}
+
+.ConnectWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.SocialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.SocialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.SocialLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Icon {
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.SocialLink:hover .Icon {
+  transform: scale(1.1);
+}
+
+.PhoneNumber {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .AboutPage {
+    min-height: auto;
+    padding: 25px 20px;
+  }
+  
+  .AboutContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+  
+  .ConnectWrapper {
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .AboutSection {
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .SocialIcons {
+    gap: 20px;
+  }
+  
+  .SocialLink {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .Icon {
+    font-size: 20px;
+  }
+  
+  .AboutEmail {
+    font-size: 15px;
+  }
+  
+  .AboutRole {
+    font-size: 13px;
+  }
+  
+  .PhoneNumber {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .AboutPage {
+    padding: 20px 15px;
+  }
+  
+  .SocialLink {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .Icon {
+    font-size: 19px;
+  }
+  
+  .AboutEmail {
+    font-size: 14px;
+    word-break: break-all;
+  }
+  
+  .PhoneNumber {
+    font-size: 13px;
+  }
 }

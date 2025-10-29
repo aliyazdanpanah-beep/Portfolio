@@ -1,26 +1,32 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 import './about.css'
 
 const About = () => {
   return (
-    <>
-      <div className="AboutPage">
-        <div className="AboutWrapper">
-          <p>ali.yazdanpanahfard@gmail.com</p>
-          <p>Frontend Developer</p>
+    <div className="AboutPage">
+      <div className="AboutContainer">
+        <div className="AboutSection">
+          <p className="AboutEmail">ali.yazdanpanahfard@gmail.com</p>
+          <p className="AboutRole">Frontend Developer</p>
         </div>
-        <div className="AboutWrapper">
-          <div className="Conect">
-            <Link> <FaGithub /> </Link>
-            <Link> <FaLinkedin /> </Link>
-            <p>+98 993 100 1382</p>
+        
+        <div className="AboutSection">
+          <div className="ConnectWrapper">
+            <div className="SocialIcons">
+              <Link to="#" className="SocialLink"> 
+                <FaGithub className="Icon" /> 
+              </Link>
+              <Link to="#" className="SocialLink"> 
+                <FaLinkedin className="Icon" /> 
+              </Link>
+            </div>
+            <p className="PhoneNumber">+98 993 100 1382</p>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default About
+export default About;
