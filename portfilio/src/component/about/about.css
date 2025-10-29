@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+.AboutPage {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: #0c0c0c;
+  justify-content: space-between;
+}
+
+.AboutWrapper {
+  color: #808080;
+  font-size: 14px;
+}
+
+.Conect {
+  display: flex;
+}
+
+.Conect a {
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+  color: #ffff;
+}

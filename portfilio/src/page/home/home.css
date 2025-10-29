@@ -60,3 +60,14 @@
     #131313
   );
 }
+
+
+.pageTittle {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 10px 0;
+  margin-top: 20px;
+  font-family: "Montserrat";
+}
