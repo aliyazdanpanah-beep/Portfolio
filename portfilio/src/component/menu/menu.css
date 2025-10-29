@@ -24,6 +24,10 @@
   backdrop-filter: blur(10px);
 }
 
+/* .MenuLine:nth-child(1) {
+  transform: rotateZ(-45deg);
+  
+} */
 
 .MenuLine:nth-child(2) {
   width: 70%;
