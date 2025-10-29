@@ -4,6 +4,7 @@ import axios from "axios";
 import "./home.css";
 import Skills from "../../component/skills/skill";
 import About from "../../component/about/about";
+import Menu from "../../component/menu/menu";
 
 const Home = () => {
   const [prog, setProg] = useState([])
@@ -17,10 +18,7 @@ const Home = () => {
   }, [])
   return (
     <section className="container">
-      <div className="MenuIcon">
-        <div className="MenuLine"></div>
-        <div className="MenuLine"></div>
-      </div>
+      <Menu />
       <div className="hero">
         <h2>wellcom to Portfolio</h2>
       </div>

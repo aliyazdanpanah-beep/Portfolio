@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MenuIcon {
+  position: fixed;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.MenuLine {
+  height: 3px;
+  margin: 10px 10px;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+
+.MenuLine:nth-child(2) {
+  width: 70%;
+}
