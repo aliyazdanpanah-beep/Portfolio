@@ -71,3 +71,24 @@
   margin-top: 20px;
   font-family: "Montserrat";
 }
+
+.MenuIcon {
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+
+.MenuLine {
+  height: 2px;
+  margin: 10px 0;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+
+.MenuLine:nth-child(2) {
+  width: 70%;
+}

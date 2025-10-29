@@ -17,6 +17,10 @@ const Home = () => {
   }, [])
   return (
     <section className="container">
+      <div className="MenuIcon">
+        <div className="MenuLine"></div>
+        <div className="MenuLine"></div>
+      </div>
       <div className="hero">
         <h2>wellcom to Portfolio</h2>
       </div>
