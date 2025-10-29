@@ -5,3 +5,8 @@
     #131313    
   );
 }
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
