@@ -1,16 +1,43 @@
 import './navbar.css'
 
 const Nav = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
-      <div className="NavWrapper">
-        <span className="NavPart">Home</span>
-        <span className="NavPart">Project</span>
-        <span className="NavPart">Skills</span>
-        <span className="NavPart">About</span>
+      <div id="NavWrapper">
+        <span 
+          className="NavPart" 
+          onClick={() => scrollToSection('home')}
+        >
+          Home
+        </span>
+        <span 
+          className="NavPart" 
+          onClick={() => scrollToSection('projects')}
+        >
+          Project
+        </span>
+        <span 
+          className="NavPart" 
+          onClick={() => scrollToSection('skills')}
+        >
+          Skills
+        </span>
+        <span 
+          className="NavPart" 
+          onClick={() => scrollToSection('about')}
+        >
+          About
+        </span>
       </div>
     </>
   );
 }
 
-export default Nav
+export default Nav;

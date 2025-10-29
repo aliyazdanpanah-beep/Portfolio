@@ -19,10 +19,10 @@ const Home = () => {
   return (
     <section className="container">
       <Menu />
-      <div className="hero">
+      <div id="home" className="hero">
         <h2>wellcom to Portfolio</h2>
       </div>
-      <div className="prog">
+      <div id="projects" className="prog">
         <div className="TittleWrapper">
           <h3 className="pageTittle">My project</h3>
         </div>
@@ -30,10 +30,10 @@ const Home = () => {
           <Prog key={Progs.id} Progs={Progs} />
         ))}
       </div>
-      <div className="skillPage">
+      <div id="skills" className="skillPage">
         <Skills />
       </div>
-      <div className="AboutPage">
+      <div id="about" className="AboutPage">
         <About />
       </div>
     </section>
