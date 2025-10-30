@@ -12,10 +12,10 @@ const Menu = () => {
     if (Navbar) {
       if (isNavVisible) {
         Navbar.style.top = '-100px';
-        Navbar.style.transition = 'all ease-in 1s'
+        Navbar.style.transition = 'all ease-in 0.5s'
       } else {
         Navbar.style.top = '0';
-        Navbar.style.transition = 'all ease-in 1s'
+        Navbar.style.transition = 'all ease-in 0.5s'
       }
     }
   };
@@ -23,7 +23,7 @@ const Menu = () => {
   return (
     <>
       <Nav />
-      <div onClick={toggleNav} className="MenuIcon">
+      <div onClick={toggleNav} className={`MenuIcon ${isNavVisible ? 'active' : ''}`}>
         <div className="MenuWrapper">
           <div className="MenuLine"></div>
           <div className="MenuLine"></div>

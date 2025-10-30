@@ -16,6 +16,7 @@
   justify-content: space-around;
   background: rgba(19, 19, 19, 0.8);
   backdrop-filter: blur(10px);
+  padding: 0 15px;
 }
 
 .NavPart {
@@ -24,4 +25,17 @@
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+.NavPart:nth-child(4) {
+  border: 1px solid #3982F9;
+  padding: 5px 10px;
+  border-radius: 30px;
+  background-color: #0C1525;
+}
+
+.NavPart:nth-child(4):hover {
+  background-color: #3982F9;
+  transition: all ease-in 0.5s;
+  color: #fff;
 }

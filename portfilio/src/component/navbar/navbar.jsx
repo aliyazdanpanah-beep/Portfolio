@@ -30,10 +30,10 @@ const Nav = () => {
           Skills
         </span>
         <span 
-          className="NavPart" 
+          className="NavPart "
           onClick={() => scrollToSection('about')}
         >
-          About
+          Get Resume
         </span>
       </div>
     </>
