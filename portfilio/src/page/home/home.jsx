@@ -7,15 +7,6 @@ import About from "../../component/about/about";
 import Menu from "../../component/menu/menu";
 
 const Home = () => {
-  const [prog, setProg] = useState([])
-
-  useEffect(() => {
-    setProg([
-      axios.get("http://localhost:3000/prog").then((res) => {
-        setProg(res.data.data)
-      })
-    ])
-  }, [])
   return (
     <section className="container">
       <Menu />
@@ -26,9 +17,9 @@ const Home = () => {
         <div className="TittleWrapper">
           <h3 className="pageTittle">My project</h3>
         </div>
-        {prog.map((Progs) => (
-          <Prog key={Progs.id} Progs={Progs} />
-        ))}
+        <div className="Prog">
+          <Prog />
+        </div>
       </div>
       <div id="skills" className="skillPage">
         <Skills />
