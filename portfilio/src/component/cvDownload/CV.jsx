@@ -1,16 +1,22 @@
 import './CV.css'
 
 function DownloadButton() {
+  const handleDownload = () => {
+
+    const fileUrl = '/../.././resume.pdf'; 
+    
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = "/resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <a 
-      href='/Ali Yazdanpanah Resume.pdf' 
-      download="resume.pdf"
-      style={{textDecoration: 'none'}}
-    >
-      <button>
-        Download Resume
-      </button>
-    </a>
+    <button className='btn' onClick={handleDownload}>
+      Download Resume
+    </button>
   );
 }
 

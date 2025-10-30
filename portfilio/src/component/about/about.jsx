@@ -2,6 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 import './about.css'
 import DownloadButton from "../cvDownload/CV";
+import ResumeButton from "../cvDownload/CV";
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
         <div className="AboutContainer">
           <div className="AboutSection">
             <p className="AboutEmail">ali.yazdanpanahfard@gmail.com</p>
+
             <DownloadButton />
           </div>
 
