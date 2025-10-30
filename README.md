@@ -64,6 +64,4 @@ http://localhost:5173
 ```
 ###contact
 
-ali.yazdanpanahfard@gmail.com
-
-
+Email: ali.yazdanpanahfard@gmail.com
